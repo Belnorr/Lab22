@@ -18,7 +18,6 @@ def classify_bmi(bmi):
     else:
         print("Over Weight")
         return 1
-
 def main():
     print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python")
     bmi_calculated = calculate_bmi(weight=57, height=1.73)  #can only concatenate str to str
